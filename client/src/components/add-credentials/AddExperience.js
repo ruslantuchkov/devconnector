@@ -89,7 +89,7 @@ class AddExperience extends Component {
                   value={this.state.to}
                   onChange={this.onChange}
                   error={errors.to}
-                  disabled={this.state.disabled ? true : ''}
+                  disabled={this.state.disabled ? 'true' : ''}
                 />
                 <div className="form-check mb-4">
                   <input
